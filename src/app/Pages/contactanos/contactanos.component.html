@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <div class="container">
+    <form action="EnviarEmail()">
+      <h2 class="text-center">Contáctanos</h2>
+      <input type="text" id="nombre" name="nombre" [(ngModel)]="DatosEmail.nombre" placeholder="Escriba su nombre o el de su empresa*" class="form-control" required>
+      <input type="email" id="correo" name="correo" [(ngModel)]="DatosEmail.correo" placeholder="Escriba su correo electronico*" class="form-control" required>
+      <input type="text" id="mensaje" name="mensaje" [(ngModel)]="DatosEmail.mensaje" placeholder="Escriba su mensaje*" class="form-control" required>
+      <button id="btnEnviar" class="btn btn-light" (click)="EnviarEmail()">Enviar</button>
+    </form>
+    <a href="" id="btnMail"></a>
+  </div>
+</div>

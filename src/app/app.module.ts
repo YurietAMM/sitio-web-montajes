@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,7 @@ import { SaludoComponent } from './Components/saludo/saludo.component';
 import { ServiciosComponent } from './Components/servicios/servicios.component';
 import { ClientesComponent } from './Components/clientes/clientes.component';
 import { BotonWhatsappComponent } from './Components/boton-whatsapp/boton-whatsapp.component';
+import { ContactanosComponent } from './Pages/contactanos/contactanos.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { BotonWhatsappComponent } from './Components/boton-whatsapp/boton-whatsa
     SaludoComponent,
     ServiciosComponent,
     ClientesComponent,
-    BotonWhatsappComponent
+    BotonWhatsappComponent,
+    ContactanosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
