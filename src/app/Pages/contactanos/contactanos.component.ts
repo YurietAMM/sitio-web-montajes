@@ -14,7 +14,7 @@ export class ContactanosComponent {
 
   EnviarEmail() {
     const btnMail = document.getElementById("btnMail");
-    btnMail?.setAttribute('href', `mailto:montajesjig@hotmail.com?subject=nombre: ${this.DatosEmail.nombre} - correo: ${this.DatosEmail.correo}&body=${this.DatosEmail.mensaje}`);
+    btnMail?.setAttribute('href', `mailto:administracion@montajesjig.com.co?subject=nombre: ${this.DatosEmail.nombre} - correo: ${this.DatosEmail.correo}&body=${this.DatosEmail.mensaje}`);
     btnMail?.click();
   }
 
