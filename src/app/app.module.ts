@@ -13,6 +13,9 @@ import { ServiciosComponent } from './Components/servicios/servicios.component';
 import { ClientesComponent } from './Components/clientes/clientes.component';
 import { BotonWhatsappComponent } from './Components/boton-whatsapp/boton-whatsapp.component';
 import { ContactanosComponent } from './Pages/contactanos/contactanos.component';
+import { HistoriaComponent } from './Components/historia/historia.component';
+import { MisionComponent } from './Components/mision/mision.component';
+import { VisionComponent } from './Components/vision/vision.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { ContactanosComponent } from './Pages/contactanos/contactanos.component'
     ServiciosComponent,
     ClientesComponent,
     BotonWhatsappComponent,
-    ContactanosComponent
+    ContactanosComponent,
+    HistoriaComponent,
+    MisionComponent,
+    VisionComponent
   ],
   imports: [
     BrowserModule,

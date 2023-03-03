@@ -35,7 +35,7 @@
   margin: 0 0 1vh 0;
   padding: 0;
   width: 80%;
-  height: 10%;
+  height: 15%;
 }
 
 #contenedor-img-historia > img {
@@ -60,7 +60,7 @@ p {
     margin: 0 0 1vh 0;
     padding: 0;
     width: 80%;
-    height: 15%;
+    height: 20%;
   }
 }
 
@@ -69,7 +69,7 @@ p {
     margin: 0 0 1vh 0;
     padding: 0;
     width: 80%;
-    height: 20%;
+    height: 25%;
   }
 }
 
@@ -103,8 +103,8 @@ p {
   #contenedor-img-historia {
     margin: 1vh auto;
     padding: 0;
-    width: 40%;
-    height: 20%;
+    width: 50%;
+    height: 30%;
   }
 
   #contenedor-historia, #contenedor-vision {
