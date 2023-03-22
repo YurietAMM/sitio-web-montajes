@@ -5,7 +5,15 @@
   font-family: 'Barlow', sans-serif;
 }
 
+#nom-empresa {
+  font-family: 'Noto Sans Avestan', cursive !important;
+}
+
 html, body {
   box-sizing: border-box;
   background-color: #fff;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  color: #007cb0;
 }
